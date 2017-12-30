@@ -14,3 +14,7 @@ var render = () => {
 }
 
 setInterval (render, 1000 / fps);
+var q = document.querySelectorAll(".subject-item a")
+q.map(function (index) {
+  console.log(index.title);
+})
